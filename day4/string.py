@@ -15,4 +15,13 @@ print(A[:-1]) # 마지막꺼빼고 다출력
 print(A[2:5]) # 다라마
 print(A[::2])
 print(A[::-1])
-print(A[1:-1:2]) # 첫번쨰 idx 부터 마지막 idx까지 2칸씩 출력
+print(A[1:-1:2]) # 1번쨰 idx 부터 마지막 idx까지 2칸씩 출력
+
+# ex
+
+B = 'abcdefg'
+
+print(B[::2]) # aceg
+print(B[1:3:1]) #bc
+
+print(B[1:-1:2]) # bdf
