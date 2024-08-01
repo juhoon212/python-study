@@ -54,6 +54,35 @@ print(L1)
 L1.extend(['정말', '반가워'])
 print(L1)
 
+# L1.sort()
+# L1.reverse()
+
+print(L1)
+
+L2 = L1[::-1]
+print(L2)
+
+item = L2.pop()
+
+print(item)
+
+L1.insert(1, ['정말', '반가워'])
+print(L1)
+
+
+D = dict(name = 'Craftsman Mentality', age = 30)
+
+D = dict(zip(['name', 'age'], ['Craftsman Mentality', 30]))
+
+A = dict(zip([1,2,3], ['a', 'b', 'c']))
+print(A)
+
+print(D)
+
+
+
+
+
 
 
 
