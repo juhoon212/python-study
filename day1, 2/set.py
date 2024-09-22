@@ -1,6 +1,8 @@
 # 집합(set)
 # 중복 x, 순서 x
 
+# collection () : tuple, [] : list, {} : set, dict{key: value}
+
 my_set = {1,2,3,3,3}
 print(my_set)
 
